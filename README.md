@@ -1,21 +1,68 @@
-# doc-helper
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-动态文档辅助器
+## Available Scripts
 
-## 需求
+In the project directory, you can run:
 
-如何使一个组件容易推广，让更多人使用。
+### `yarn start`
 
-当我们历尽艰苦（实力不行）的开发出一个（自认为很好用的）组件时，却发现使用者寥寥，并非是他们不想用，而是阅读一大篇 README 真的十分心累，除非强制要求，不然基本不想考虑。
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-而因为业务需求，我开发组件有一很多配置项是暴露给产品同学进行下发配置的，那么如何让一个不懂开发的产品更好更方便的配置出一个他想要的组件形式呢？
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
 
-其实使用者只是想快速的复制粘贴一下就能直接使用自己需要的组件和想要的配置，而不是先看组件说明，再研究组件 API，最后发现其实并不支持他想要的效果。
+### `yarn test`
 
-## 为什么不是 [react-docgen](https://github.com/reactjs/react-docgen#readme)
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-对于一个底层开发来说，实力还不允许我在写组件的时候就已经想好暴露的 API ，并能够在开发中想好类型写全注释，而懒惰也阻止了我在开发结束后一行一行的按照规定方式去补充注释，并且我更希望的是能够将组件的 API 与对应的 UI 形式完整的暴露出来，而非对着 README 去遐想。
+### `yarn build`
 
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
